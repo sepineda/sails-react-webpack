@@ -26,9 +26,17 @@
     "sails-disk": "~0.10.9"
   },
   "scripts": {
-    "debug": "node debug app.js",
-    "start": "node app.js",
-    "build:dev": "webpack --config assets/config/webpack.dev.js"
+    "start": "npm-run-all --parallel open:client dev",
+    "start:debug": "npm-run-all --parallel open:client debug",
+    "open:client": "webpack-dev-server --open",
+    "build": "npm run build:prod",
+    "build:dev": "rimraf assets/dist && webpack",
+    "build:prod": "rimraf assets/dist && webpack --config assets/config/webpack.prod",
+    "build:aot": "ng build --aot --deploy-url=dist",
+    "clean": "rimraf assets/dist",
+    "prod": "sails lift --prod",
+    "dev": "sails lift --dev",
+    "debug": "node --inspect app.js"
   },
   "main": "app.js",
   "repository": {
@@ -44,7 +52,10 @@
     "babel-preset-react": "^6.24.1",
     "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^2.30.1",
+    "npm-run-all": "^4.1.2",
+    "rimraf": "^2.6.2",
     "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4",
     "webpack-merge": "^4.1.1"
   }
 }
