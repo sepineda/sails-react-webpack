@@ -30,10 +30,9 @@
     "start:debug": "npm-run-all --parallel open:client debug",
     "open:client": "webpack-dev-server --open",
     "build": "npm run build:prod",
-    "build:dev": "rimraf assets/dist && webpack",
-    "build:prod": "rimraf assets/dist && webpack --config assets/config/webpack.prod",
-    "build:aot": "ng build --aot --deploy-url=dist",
-    "clean": "rimraf assets/dist",
+    "build:dev": "webpack",
+    "build:prod": "webpack --config assets/config/webpack.prod",
+    "clean": "rimraf .tmp && mkdirp .tmp/public",
     "prod": "sails lift --prod",
     "dev": "sails lift --dev",
     "debug": "node --inspect app.js"

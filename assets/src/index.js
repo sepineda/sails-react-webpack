@@ -5,7 +5,7 @@ console.log('hey there!!');
 const App = () => {
   return (
     <div>
-      Hello 2
+      Hello
     </div>
   );
 };
