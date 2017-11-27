@@ -1,7 +1,5 @@
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var ProvidePlugin = require('webpack/lib/ProvidePlugin');
 var helpers = require('./helpers');
 
 const VENDOR_LIBS = ['react', 'react-dom'];
