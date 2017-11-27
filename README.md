@@ -1,3 +1,3 @@
 # sails-react-webpack
 
-a [Sails](http://sailsjs.org) application
+a [Sails](http://sailsjs.org) with [React](http://react.org) application

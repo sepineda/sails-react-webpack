@@ -5,7 +5,7 @@ console.log('hey there!!');
 const App = () => {
   return (
     <div>
-      Hello
+      Simple Sails-React stater
     </div>
   );
 };
