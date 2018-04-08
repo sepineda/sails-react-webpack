@@ -1,11 +1,9 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom';
-console.log('hey there!!');
 const App = () => {
   return (
     <div>
-      Simple Sails-React stater
+      Simple Sails-React stater 2
     </div>
   );
 };

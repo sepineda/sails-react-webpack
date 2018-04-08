@@ -1,23 +1,27 @@
-# sails-react-webpack
+# sails-react-webpack-4
 
-A simple Sails and React starter app
+a [Sails v1](https://sailsjs.com) application
 
-To run project, please follow this steps,
 
-#Steps
+### Links
 
-Install packages and depencies
++ [Get started](https://sailsjs.com/get-started)
++ [Sails framework documentation](https://sailsjs.com/documentation)
++ [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
++ [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
++ [Community support options](https://sailsjs.com/support)
++ [Professional / enterprise options](https://sailsjs.com/enterprise)
 
-`npm install`
 
-For Development environment, we just run,
-  
-  `npm run start`
-  
-  This command will start and open webpack dev-server and sails in dev mode.
-  
-  If you want to take a different approach. You might compile the assets first and then start sails to serve assets as it normally does in production. You might proceed with:
-  
-* `npm run build`: Builds the project's assets in the production environment. Add `build:dev` for development, it won't minify javascript or CSS.
-* `npm run dev`: Will start running sails in dev environment (run `npm run build:dev` before).
-* `npm run prod`: Will run sails in the production environment. You should use this for deploying to a public server (run `npm run build:prod` before).
+### Version info
+
+This app was originally generated on Sat Apr 07 2018 09:59:19 GMT-0600 (Hora estándar, América Central) using Sails v1.0.0.
+
+<!-- Internally, Sails used [`sails-generate@1.15.19`](https://github.com/balderdashy/sails-generate/tree/v1.15.19/lib/core-generators/new). -->
+
+
+
+<!--
+Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
+-->
+
