@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 const App = () => {
   return (
     <div>
-      Simple Sails-React stater 2
+      Simple Sails-React stater
     </div>
   );
 };
