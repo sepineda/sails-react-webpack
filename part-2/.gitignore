@@ -130,3 +130,5 @@ lib-cov
 *.out
 *.pid
 
+#snapshot folder
+__snapshots__
