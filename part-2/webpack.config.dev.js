@@ -6,6 +6,7 @@ const autoprefixer = require('autoprefixer');
 const path = require('path');
 
 module.exports = {
+  devtool: 'source-map',
   entry: [
     './client/js/index.js',
     'webpack-hot-middleware/client?reload=true'
