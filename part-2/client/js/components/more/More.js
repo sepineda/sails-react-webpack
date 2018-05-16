@@ -1,18 +1,18 @@
 import React from 'react';
 import { Jumbotron, Button } from 'reactstrap';
 
-const Contact = () => (
+const More = () => (
     <div>
       <Jumbotron>
-        <h1 className="display-3">Contact me!</h1>
+        <h1 className="display-3">More...</h1>
         <p className="lead">
-          This is a simple contact information dialog.
+          Just a little more information about nothing in particular.
         </p>
         <p className="lead">
-          <Button color="primary">Let's connect</Button>
+          <Button color="primary">More...</Button>
         </p>
       </Jumbotron>
     </div>
 );
 
-export default Contact;
+export default More;
